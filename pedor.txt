@@ -1,0 +1,7 @@
+Barra de navegacion : 
+Home / Inicio -> Video o imagen con descripcion -16 caracteres
+Nosotros -> Personas, descripcion y contacto -80 caracteres c/u
+Servicio -> modo acordeon -> servicios brindados
+Staff -> fotos del equipo -> slider
+Contato -> API de envio de mensajes con un mail administrador / el mismo hosting
+Footer -> Link de redireccionamiento a instagram y distintos puntos de la pagina 
