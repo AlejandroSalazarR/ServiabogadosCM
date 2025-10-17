@@ -84,7 +84,7 @@ const Contact = () => {
               <p className='text-2xl font-bold inline text-gray-200 pt-20'>Info</p>
 
               <List sx={{ width: '100%', maxWidth: 360 }}>
-                <ListItem  component="a" href="https://wa.me/+5491144776913" target='_blank' rel="noreferrer">
+                <ListItem  component="a" href="https://wa.me/+573178913023" target='_blank' rel="noreferrer">
                   <ListItemAvatar >
                     <Avatar sx={{ bgcolor: '#343a40' }} >
                       <WhatsAppIcon />
@@ -100,7 +100,7 @@ const Contact = () => {
                   </ListItemAvatar>
                   <ListItemText sx={{ color: '#ddd4c3' }} primary="Email"  />
                 </ListItem>
-                <ListItem  component="a" href="https://www.instagram.com/spagnaasociados/" target='_blank' rel="noreferrer">
+                <ListItem  component="a" href="https://www.instagram.com/serviabogadoscm/" target='_blank' rel="noreferrer">
                   <ListItemAvatar>
                     <Avatar sx={{ bgcolor: '#343a40' }}>
                       <InstagramIcon />

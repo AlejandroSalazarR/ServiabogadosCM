@@ -29,17 +29,17 @@ function Footer() {
                 </li>
               <h6 className="text-gray-200 font-medium mb-2">WhatsApp</h6>
                 <li className="mb-2 p-0">
-                  <ListItem   component="a" href="https://wa.me/+5491144776913" target='_blank' rel="noreferrer" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">11-44776913</ListItem>
+                  <ListItem   component="a" href="https://wa.me/+573178913023" target='_blank' rel="noreferrer" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">+57 3178913023</ListItem>
 
                 </li>
                 <li className="mb-2  p-0">
-                  <ListItem  component="a" href="https://wa.me/+5491122423900" target='_blank' rel="noreferrer" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">11-22423900</ListItem>
+                  <ListItem  component="a" href="https://wa.me/+573178913023" target='_blank' rel="noreferrer" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">+57 3178913023</ListItem>
 
                 </li>
               <h6 className="text-gray-200 font-medium mb-2">Instagram</h6>
 
                 <li className="mb-2  p-0">
-                  <ListItem  component="a" href="https://www.instagram.com/spagnaasociados/" target='_blank' rel="noreferrer" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">@spagnaasociados</ListItem>
+                  <ListItem  component="a" href="https://www.instagram.com/serviabogadoscm/" target='_blank' rel="noreferrer" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">@serviabogadoscm</ListItem>
 
 
                 </li>

@@ -69,22 +69,36 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
 const images = [
     {
         url: 'https://manosalvaspartners.com/wp-content/uploads/2018/09/asesoria-legal.jpg',
-        title: 'Asesoria juridica civil',
+        title: 'ASESORIA CIVIL – FAMILIA ',
         width: '50%',
-        description: 'Ofrecemos asesoría integral en temas de derecho civil, incluyendo contratos, sucesiones, obligaciones y responsabilidad civil. Nuestro equipo de expertos te acompaña en la resolución de conflictos y la protección de tus derechos patrimoniales y personales.',
+        description: 'Ofrece soluciones legales integrales para proteger tus derechos y los de su familia en procesos civiles y familiares, se ofrecen servicios personalizados para resolver conflictos familiares y brindar soluciones legales efectivas, se proporciona asesoría legal en asuntos de derecho civil y de familia, enfocándose en la protección de los derechos personales y patrimoniales. ',
     },
 
     {
         url: 'https://casallasabogados.co/wp-content/uploads/2024/05/ADMINISTRATIVO.jpg',
-        title: 'Asesoria juridica administrativa',
+        title: 'Asesoría Administrativa',
         width: '50%',
-        description: 'Es un servicio que se enfoca en brindar apoyo y asesoramiento a empresas y organizaciones para mejorar su gestión y eficiencia en el uso de recursos. Esta área de estudio se enfoca en analizar y mejorar los procesos y procedimientos administrativos, con el fin de aumentar la productividad y reducir costos, busca identificar oportunidades, resolver desafíos y potenciar la eficiencia y rentabilidad de la empresa, alianza estratégica que busca potenciar el crecimiento y éxito de las empresas. Al contar con expertos que ofrecen perspectivas frescas y soluciones.',
+        description: `La Asesoría Administrativa es un campo amplio que puede abordar una variedad de temas, adaptándose a las necesidades específicas de cada empresa. Algunas áreas clave incluyen:
+
+    Asesoría en conflictos que surgen entre particulares y entidades del Estado.
+
+    <strong>Estrategias de Negocio:</strong> Definición de objetivos, identificación de oportunidades de mercado y planificación estratégica.
+
+    <strong>Recursos Humanos:</strong> Estrategias de contratación, formación, retención y desarrollo del talento.
+
+    <strong>Cumplimiento Normativo:</strong> Asegurando que la empresa cumpla con todas las regulaciones y leyes pertinentes.
+
+    <strong>Servicios de Oficina:</strong> Optimización de procesos internos, desde la gestión documental hasta la implementación de tecnologías.`,
     },
     {
         url: 'https://gestioncalidadsas.com/wp-content/uploads/2020/05/Gestion-Calidad-05-1024x683.jpg',
-        title: 'Asesoria juridica laboral',
+        title: 'Asesoria juridica laboral y seguridad social',
         width: '38%',
-        description: 'Brindamos asesoría especializada en derecho laboral, incluyendo contratos de trabajo, terminaciones, liquidaciones, conflictos laborales, acoso laboral y todo lo relacionado con las relaciones entre empleadores y trabajadores.',
+        description: `La asesoría jurídica laboral y seguridad social es un servicio especializado que ofrece orientación y apoyo en temas relacionados con el derecho laboral y la seguridad social. Su objetivo principal es garantizar el cumplimiento de las normativas laborales, protegiendo tanto a empleadores como a trabajadores. Contar con una asesoría jurídica laboral y de seguridad social adecuada permite prevenir conflictos ante el ministerio del trabajo y procesos judiciales, asegurando relaciones laborales justas y resolver disputas de manera eficiente.
+
+            Asesoramiento en conflictos que surgen entre empleados y trabajadores utilizando los mecanismos alternativos de solución de conflictos, logrando obtener un acuerdo para ambas partes, con el objetivo de solucionar el conflicto antes de iniciar un proceso judicial ante jurisdicción ordinaria.
+
+            Asesoramiento en contratos laborales Redacción, revisión de contratos de trabajo, asegurando su alineación con la legislación vigente y los acuerdos entre las partes.`,
     },
     {
         url: 'https://www.kienyke.com/sites/default/files/styles/interna_relacionado_seccion_xl_l_m/public/2021-08/accion-de-tutela-2%20%281%29.jpg?itok=iK-iECmb',
@@ -94,13 +108,13 @@ const images = [
     },
     {
         url: 'https://invisenales.com/wp-content/uploads/2020/06/Captura-de-Pantalla-2020-07-09-a-las-6.54.52-p.-m..png',
-        title: 'Asesorias en multas de transito',
+        title: 'Asesorias de transito',
         width: '24%',
-        description: 'Te asesoramos en la impugnación de comparendos de tránsito, recursos de apelación y procesos administrativos relacionados con multas vehiculares. Defendemos tus derechos ante las autoridades de tránsito.',
+        description: 'Se refiere a la asistencia legal y administrativa que se brinda a los ciudadanos en el ámbito de la regulación de tránsito y transporte. Esto incluye servicios como la gestión de comparendos, la contradicción y reclamación de seguros, la resolución de conflictos y litigios relacionados con accidentes de responsabilidad civil, lesiones personales y daños a la propiedad. ',
     },
     {
         url: 'https://3.bp.blogspot.com/-7Xb4k74cKoM/V08JDva5iQI/AAAAAAAAAus/HTHDvG3F2_kCXqPIzPqA1yGMGH4spffaACLcB/s1600/SEGURIDAD%2BSOCIAL.jpg',
-        title: 'Afiliacion a seguridad social',
+        title: 'Gestión de seguridad social y obligaciones laborales',
         width: '40%',
         description: 'Gestionamos procesos de afiliación y traslado al sistema de seguridad social integral (salud, pensión y riesgos laborales). Asesoramos tanto a empleadores como trabajadores independientes en sus obligaciones y derechos en materia de seguridad social.',
     },
@@ -301,15 +315,21 @@ export default function ProductCategories() {
                                 >
                                     <Typography
                                         variant="body1"
+                                        component="div"
                                         sx={{
                                             color: '#e0e0e0',
                                             lineHeight: 1.8,
                                             fontSize: '1.1rem',
                                             textAlign: 'justify',
+                                            '& strong': {
+                                                fontWeight: 'bold',
+                                                color: '#ffffff',
+                                            }
                                         }}
-                                    >
-                                        {selectedService.description}
-                                    </Typography>
+                                        dangerouslySetInnerHTML={{
+                                            __html: selectedService.description.replace(/\n\n/g, '<br/><br/>')
+                                        }}
+                                    />
                                 </Box>
                             </>
                         )}
