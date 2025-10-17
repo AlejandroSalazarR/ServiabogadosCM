@@ -19,7 +19,7 @@ export default function Example() {
           <div className="bg-[#595E63] shadow-md hover:shadow-lg rounded-3xl p-8">
             <p className=' text-4xl  inline text-[#fff]'>Nosotros</p>
             <p className="mt-4  text-2xl max-lg:text-base 	 text-[#fff]">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ad quas impedit magnam. Quia tempora debitis culpa tenetur necessitatibus voluptate? Corporis, consequuntur illum rem ducimus facere voluptatem repudiandae quam odio!
+             Somos un equipo de profesionales del derecho comprometidos con la defensa de tus derechos e intereses. Con amplia experiencia en diversas áreas del derecho, ofrecemos asesoría jurídica integral, personalizada y de calidad. Nuestro objetivo es brindarte soluciones integrales efectivas, acompañamiento en cada etapa del proceso con un servicio cercano, transparente y orientado a resultados. En Serviabogados CM, tu tranquilidad y satisfacción son nuestra prioridad.
                          </p>
             <dl className=" mt-16 px-28 grid gap-x-6 gap-y-10 sm:grid-cols-3 max-lg:grid-cols-1 sm:gap-y-16 lg:gap-x-8 max-lg:px-4">
               {features.map((feature) => (
