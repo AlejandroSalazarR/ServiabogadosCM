@@ -116,7 +116,7 @@ const images = [
         url: 'https://images.pexels.com/photos/6077326/pexels-photo-6077326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         title: 'Otros servicios',
         width: '33%',
-        description: 'Ofrecemos una amplia gama de servicios legales adicionales adaptados a tus necesidades específicas. Consulta con nosotros sobre tu caso particular y te brindaremos la asesoría especializada que requieres.',
+        description: 'Ofrecemos una amplia gama de servicios legales adicionales adaptados a tus necesidades específicas. Consulta con nosotros sobre tu caso particular y te brindaremos la asesoría especializada que requieras.',
     },
     {
         url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg9Gmv6nKzOQr-IhKSq_yeGlP9csQFVlRsSQ&s',
