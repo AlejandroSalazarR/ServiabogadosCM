@@ -91,7 +91,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between rounded-tr-3xl items-center ml-[-100px] hover:rounded-r-3xl hover:ml-[-10px] duration-300 bg-green-600'>
             <a
               className='flex justify-between items-center w-full text-stone-800'
-              href='https://wa.me/+573178913023?text=Hola,%20quisiera%20saber%20más%20sobre%20la%20asesoría.' target='_blank' rel="noreferrer"
+              href='https://wa.me/+573178913023?text=Hola,%20me%20gustaría%20recibir%20más%20información%20sobre%20los%20servicios%20legales%20que%20ofrece%20Serviabogados%20CM.' target='_blank' rel="noreferrer"
             >
               WhatsApp <FaWhatsapp size={30} />
             </a>
@@ -106,21 +106,21 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:rounded-r-3xl hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a
-              className='flex justify-between items-center w-full text-white'
-              href='https://www.facebook.com/' target='_blank' rel="noreferrer"
-            >
-              Facebook <FaFacebook size={30} />
-            </a>
-          </li>
-
-          <li className='w-[160px] h-[60px] flex justify-between rounded-br-3xl items-center ml-[-100px] hover:rounded-r-3xl hover:ml-[-10px] duration-300 bg-black'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:rounded-r-3xl hover:ml-[-10px] duration-300 bg-black'>
             <a
               className='flex justify-between items-center w-full text-white'
               href='https://www.tiktok.com/@serviabogadoscm/' target='_blank' rel="noreferrer"
             >
               TikTok <FaTiktok size={30} />
+            </a>
+          </li>
+
+          <li className='w-[160px] h-[60px] flex justify-between rounded-br-3xl items-center ml-[-100px] hover:rounded-r-3xl hover:ml-[-10px] duration-300 bg-blue-600'>
+            <a
+              className='flex justify-between items-center w-full text-white'
+              href='https://www.facebook.com/' target='_blank' rel="noreferrer"
+            >
+              Facebook <FaFacebook size={30} />
             </a>
           </li>
         </ul>

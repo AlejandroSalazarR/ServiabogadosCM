@@ -1,4 +1,4 @@
-import image_01 from '../assets/detenidos.jpg'
+import image_01 from '../assets/civil.jpg'
 import image_02 from '../assets/asesor.jpg'
 import image_03 from '../assets/ejecucion.jpg'
 
@@ -7,7 +7,7 @@ import image_03 from '../assets/ejecucion.jpg'
 const features = [
   { name: 'Asesorias jurídicas', description: 'Made from natural materials. Grain and color vary with each item.', image: image_03 },
   { name: 'Derechos de peticion y Acciones de tutela', description: 'Made from natural materials. Grain and color vary with each item.', image: image_02 },
-  { name: 'Afiliaciones a seguridad social', description: 'Made from natural materials. Grain and color vary with each item.', image: image_01 },
+  { name: 'Asesoria civil', description: 'Made from natural materials. Grain and color vary with each item.', image: image_01 },
 ]
 
 export default function Example() {

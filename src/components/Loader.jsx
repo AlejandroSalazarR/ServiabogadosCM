@@ -32,7 +32,7 @@ const Container = styled(motion.div)`
     overflow: visible;
     stroke-linejoin: round;
     stroke-linecap: round;
-    padding-right: 70px;
+    padding-right: 50px;
 
     g {
       path {
@@ -51,7 +51,7 @@ const Container = styled(motion.div)`
 const Text = styled(motion.span)`
   font-size: ${(props) => props.theme.fontxl};
   color: ${(props) => props.theme.text};
-  padding-top: 8rem;
+  padding-top: 5rem;
 
   @media (max-width: 48em) {
     font-size: ${(props) => props.theme.fontlg};

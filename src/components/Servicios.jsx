@@ -92,8 +92,8 @@ const images = [
     },
     {
         url: 'https://gestioncalidadsas.com/wp-content/uploads/2020/05/Gestion-Calidad-05-1024x683.jpg',
-        title: 'Asesoria juridica laboral y seguridad social',
-        width: '38%',
+        title: 'Asesoria juridica',
+        width: '50%',
         description: `La asesoría jurídica laboral y seguridad social es un servicio especializado que ofrece orientación y apoyo en temas relacionados con el derecho laboral y la seguridad social. Su objetivo principal es garantizar el cumplimiento de las normativas laborales, protegiendo tanto a empleadores como a trabajadores. Contar con una asesoría jurídica laboral y de seguridad social adecuada permite prevenir conflictos ante el ministerio del trabajo y procesos judiciales, asegurando relaciones laborales justas y resolver disputas de manera eficiente.
 
             Asesoramiento en conflictos que surgen entre empleados y trabajadores utilizando los mecanismos alternativos de solución de conflictos, logrando obtener un acuerdo para ambas partes, con el objetivo de solucionar el conflicto antes de iniciar un proceso judicial ante jurisdicción ordinaria.
@@ -103,31 +103,25 @@ const images = [
     {
         url: 'https://www.kienyke.com/sites/default/files/styles/interna_relacionado_seccion_xl_l_m/public/2021-08/accion-de-tutela-2%20%281%29.jpg?itok=iK-iECmb',
         title: 'Derechos de peticion y Acciones de tutela',
-        width: '38%',
+        width: '50%',
         description: 'Elaboramos y tramitamos derechos de petición ante entidades públicas y privadas, así como acciones de tutela para la protección inmediata de derechos fundamentales. Te acompañamos en todo el proceso hasta obtener una respuesta favorable.',
     },
     {
         url: 'https://invisenales.com/wp-content/uploads/2020/06/Captura-de-Pantalla-2020-07-09-a-las-6.54.52-p.-m..png',
         title: 'Asesorias de transito',
-        width: '24%',
+        width: '34%',
         description: 'Se refiere a la asistencia legal y administrativa que se brinda a los ciudadanos en el ámbito de la regulación de tránsito y transporte. Esto incluye servicios como la gestión de comparendos, la contradicción y reclamación de seguros, la resolución de conflictos y litigios relacionados con accidentes de responsabilidad civil, lesiones personales y daños a la propiedad. ',
-    },
-    {
-        url: 'https://3.bp.blogspot.com/-7Xb4k74cKoM/V08JDva5iQI/AAAAAAAAAus/HTHDvG3F2_kCXqPIzPqA1yGMGH4spffaACLcB/s1600/SEGURIDAD%2BSOCIAL.jpg',
-        title: 'Gestión de seguridad social y obligaciones laborales',
-        width: '40%',
-        description: 'Gestionamos procesos de afiliación y traslado al sistema de seguridad social integral (salud, pensión y riesgos laborales). Asesoramos tanto a empleadores como trabajadores independientes en sus obligaciones y derechos en materia de seguridad social.',
     },
     {
         url: 'https://images.pexels.com/photos/6077326/pexels-photo-6077326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         title: 'Otros servicios',
-        width: '20%',
+        width: '33%',
         description: 'Ofrecemos una amplia gama de servicios legales adicionales adaptados a tus necesidades específicas. Consulta con nosotros sobre tu caso particular y te brindaremos la asesoría especializada que requieres.',
     },
     {
-        url: 'https://alarmtech.com.do/wp-content/uploads/2019/05/contact-us-1024x350.jpg',
+        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg9Gmv6nKzOQr-IhKSq_yeGlP9csQFVlRsSQ&s',
         title: 'Contactanos',
-        width: '40%',
+        width: '33%',
         description: '¿Tienes alguna consulta legal? No dudes en contactarnos. Estamos disponibles para atender tus inquietudes y brindarte la mejor asesoría jurídica. Comunícate con nosotros y agenda tu cita.',
     }
 
