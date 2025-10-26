@@ -122,7 +122,7 @@ const images = [
         url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg9Gmv6nKzOQr-IhKSq_yeGlP9csQFVlRsSQ&s',
         title: 'Contactanos',
         width: '33%',
-        description: '¿Tienes alguna consulta legal? No dudes en contactarnos. Estamos disponibles para atender tus inquietudes y brindarte la mejor asesoría jurídica. Comunícate con nosotros y agenda tu cita.',
+        description: '¿Tienes alguna consulta legal? No dudes en contactarnos. Estamos disponibles para atender tus inquietudes y brindarte la mejor asesoría jurídica. Comunícate con nosotros y agenda tu cita.<br/><br/>Contactanos al correo electrónico: <strong>serviabogadoscm@gmail.com</strong><br/><br/>Teléfono: <a href="https://wa.me/573178913023?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20vuestros%20servicios" target="_blank" style="color: #4CAF50; text-decoration: none; font-weight: bold;">+57 3178913023</a>',
     }
 
 ];

@@ -17,7 +17,7 @@ const About = () => {
 
               <div className='text-[#fff] bg-[#595E63] p-8 flex flex-col justify-center self-center'>
                 <p className='text-4xl pb-4 font-montserrat inline max-lg:p-4'>
-                  ASESORIA ADMINISTRATIVA
+                  ASESORÍA ADMINISTRATIVA
                 </p>
                 <p className='text-xl text-[#fff]  max-lg:p-4'>Es un servicio que se enfoca en brindar apoyo y asesoramiento a empresas y organizaciones para mejorar su gestión y eficiencia en el uso de recursos. Esta área de estudio se enfoca en analizar y mejorar los procesos y procedimientos administrativos, con el fin de aumentar la productividad y reducir costos, busca identificar oportunidades, resolver desafíos y potenciar la eficiencia y rentabilidad de la empresa, alianza estratégica que busca potenciar el crecimiento y éxito de las empresas. Al contar con expertos que ofrecen perspectivas frescas y soluciones.</p>
               </div>
