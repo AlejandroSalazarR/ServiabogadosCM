@@ -22,10 +22,10 @@ function Footer() {
               <h6 className="text-gray-200 font-medium mb-4 text-lg">Contactenos</h6>
               <ul className="text-base">
                 <li className="mb-3">
-                  <Link to="contact" className="text-gray-400 hover:text-gray-200 transition duration-150 ease-in-out cursor-pointer">Contacto</Link>
+                  <a href="mailto:serviabogadoscm@gmail.com" className="text-gray-400 hover:text-gray-200 transition duration-150 ease-in-out">serviabogadoscm@gmail.com</a>
                 </li>
                 <li className="mb-3">
-                  <Link to="about" className="text-gray-400 hover:text-gray-200 transition duration-150 ease-in-out cursor-pointer">Nosotros</Link>
+                  <Link to="nosotros" className="text-gray-400 hover:text-gray-200 transition duration-150 ease-in-out cursor-pointer">Nosotros</Link>
                 </li>
               </ul>
             </div>

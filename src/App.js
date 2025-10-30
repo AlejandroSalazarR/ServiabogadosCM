@@ -36,10 +36,10 @@ function App() {
 
       <Navbar />
       <Hero />
-      <About />
+      <Features />
       <Servicios />
       {/* <Contact /> */}
-      <Features />
+      <About />
       <Footer />
 
     </div>

@@ -78,7 +78,9 @@ const images = [
         url: 'https://casallasabogados.co/wp-content/uploads/2024/05/ADMINISTRATIVO.jpg',
         title: 'Asesoría Administrativa',
         width: '50%',
-        description: `La Asesoría Administrativa es un campo amplio que puede abordar una variedad de temas, adaptándose a las necesidades específicas de cada empresa. Algunas áreas clave incluyen:
+        description: `Es un servicio que se enfoca en brindar apoyo y asesoramiento a empresas y organizaciones para mejorar su gestión y eficiencia en el uso de recursos. Esta área de estudio se enfoca en analizar y mejorar los procesos y procedimientos administrativos, con el fin de aumentar la productividad y reducir costos, busca identificar oportunidades, resolver desafíos y potenciar la eficiencia y rentabilidad de la empresa, alianza estratégica que busca potenciar el crecimiento y éxito de las empresas. Al contar con expertos que ofrecen perspectivas frescas y soluciones.
+
+La Asesoría Administrativa es un campo amplio que puede abordar una variedad de temas, adaptándose a las necesidades específicas de cada empresa. Algunas áreas clave incluyen:
 
     Asesoría en conflictos que surgen entre particulares y entidades del Estado.
 
