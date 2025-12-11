@@ -30,7 +30,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='about' smooth={true}  duration={500}>
+          <Link to='staff' smooth={true}  duration={500}>
             Sobre mi
           </Link>
         </li>
@@ -41,7 +41,7 @@ const Navbar = () => {
         </li>
 
         <li>
-          <Link to='contact' offset={-50} smooth={true} duration={500}>
+          <Link to='footer' offset={-50} smooth={true} duration={500}>
             Contactenos
           </Link>
         </li>
@@ -67,7 +67,7 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='staff' smooth={true} duration={500}>
             Sobre mi
           </Link>
         </li>
@@ -79,7 +79,7 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='footer' smooth={true} duration={500}>
             Contacto
           </Link>
         </li>

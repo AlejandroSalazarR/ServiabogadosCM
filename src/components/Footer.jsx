@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-scroll';
 
@@ -11,7 +10,7 @@ function Footer() {
           <path d="M0,10 c80,-18 230,-12 350,7 c80,13 260,17 350,-5 v100 h-700z" fill="#2E2E2E" />
         </svg>
       </div>
-      <footer className='bg-[#2E2E2E]'>
+      <footer name='footer' className='bg-[#2E2E2E]'>
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
           {/* Top area: Blocks - 3 Columnas */}

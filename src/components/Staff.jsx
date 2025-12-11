@@ -16,7 +16,7 @@ export default function Example() {
   return (
     <>
 
-      <div name='nosotros' className="bg-[#1F1F1F]  flex justify-center  text-black max-lg:pb-20 ">
+      <div name='staff' className="bg-[#1F1F1F]  flex justify-center  text-black max-lg:pb-20 ">
         <div className="  mx-20  grid max-w-7xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 max-lg:px-8 px-24 sm:px-2 sm:py-20 lg:max-w-7xl lg:px-10 max-lg:mx-1 max-lg:pb-1">
           <div className="bg-[#595E63] shadow-md hover:shadow-lg rounded-3xl p-8">
             <p className=' text-4xl  inline text-[#fff]'>Nosotros</p>
