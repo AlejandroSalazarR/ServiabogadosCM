@@ -1,6 +1,4 @@
 import React from 'react';
-import photo11 from '../assets/Photo11.jpeg';
-
 
 const Home = () => {
 
@@ -20,15 +18,6 @@ const Home = () => {
           </div>
 
 
-        </div>
-
-        {/* Imagen en la parte inferior derecha */}
-        <div className='absolute bottom-8 right-8 z-10'>
-          <img
-            src={photo11}
-            alt="Serviabogados CM"
-            className='w-48 h-auto object-contain shadow-lg rounded-lg'
-          />
         </div>
       </div>
 
