@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import { FaChevronDown, FaBalanceScale, FaFileContract, FaBriefcase, FaShieldAlt, FaEnvelope, FaLandmark, FaChevronLeft, FaChevronRight, FaStar } from 'react-icons/fa';
+import { FaChevronDown, FaBalanceScale, FaFileContract, FaBriefcase, FaShieldAlt, FaEnvelope, FaLandmark, FaChevronLeft, FaChevronRight, FaStar, FaWhatsapp } from 'react-icons/fa';
 
 // Importar imágenes de asesoría civil
 import asesoriacivil1 from '../assets/asesoriacivil1.png';
@@ -164,7 +164,7 @@ const services = [
     {
         icon: <FaShieldAlt size={32} />,
         title: 'DERECHOS DE PETICIÓN Y ACCIONES DE TUTELA',
-        description: 'Elaboramos y tramitamos derechos de petición ante entidades públicas y privadas, así como acciones de tutela para la protección inmediata de derechos fundamentales. Te acompañamos en todo el proceso hasta obtener una respuesta favorable.',
+        description: 'Elaboramos y tramitamos derechos de petición ante entidades públicas y privadas, así como acciones de tutela para la protección inmediata de derechos fundamentales. Te acompañamos en todo el proceso.',
         color: '#E74C3C',
         images: []
     },
@@ -263,9 +263,10 @@ export default function ProductCategories() {
                         href="https://wa.me/573178913023?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20vuestros%20servicios"
                         target="_blank"
                         rel="noreferrer"
-                        className='inline-block bg-[#D4AF37] hover:bg-[#B8941F] text-black font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg'
+                        className='inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#128C7E] text-white font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg'
                     >
-                        CONSULTA GRATUITA
+                        <FaWhatsapp size={24} />
+                        Contactanos
                     </a>
                 </div>
             </div>

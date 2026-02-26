@@ -3,7 +3,7 @@ import {
   FaBars,
   FaTimes,
   FaInstagram,
-  FaWhatsapp,
+  //FaWhatsapp,
   FaFacebook,
   FaTiktok,
 } from 'react-icons/fa';
@@ -88,16 +88,7 @@ const Navbar = () => {
       {/* Social icons */}
       <div className=' lg:flex fixed flex-col top-[50%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between rounded-tr-3xl items-center ml-[-100px] hover:rounded-r-3xl hover:ml-[-10px] duration-300 bg-green-600'>
-            <a
-              className='flex justify-between items-center w-full text-stone-800'
-              href='https://wa.me/+573178913023?text=Hola,%20me%20gustaría%20recibir%20más%20información%20sobre%20los%20servicios%20jurídicos%20que%20ofrece%20Serviabogados%20CM.' target='_blank' rel="noreferrer"
-            >
-              WhatsApp <FaWhatsapp size={30} />
-            </a>
-          </li>
-
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:rounded-r-3xl hover:ml-[-10px] duration-300 bg-[#cbcfd3]'>
+          <li className='w-[160px] h-[60px] flex justify-between rounded-tr-3xl items-center ml-[-100px] hover:rounded-r-3xl hover:ml-[-10px] duration-300 bg-[#cbcfd3]'>
             <a
               className='flex justify-between items-center w-full text-stone-800'
               href='https://www.instagram.com/serviabogadoscm/' target='_blank' rel="noreferrer"
