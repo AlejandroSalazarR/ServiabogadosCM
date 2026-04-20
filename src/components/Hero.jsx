@@ -3,9 +3,11 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import Home from "./Home";
 import image1 from '../assets/lawyer1.png';
 import image2 from '../assets/lawyer2.png';
+import image3 from '../assets/lawyer3.png';
+import image4 from '../assets/lawyer4.png';
 
 const Hero = () => {
-    const images = [image1, image2];
+    const images = [image1, image2, image3, image4];
     const [currentIndex, setCurrentIndex] = useState(0);
 
     // Transición automática cada 5 segundos
@@ -39,17 +41,15 @@ const Hero = () => {
                     {images.map((image, index) => (
                         <div
                             key={index}
-                            className={`absolute inset-0 transition-opacity duration-1000 rounded-2xl overflow-hidden max-lg:rounded-none ${
+                            className={`absolute inset-0 transition-opacity duration-1000 rounded-2xl overflow-hidden max-lg:rounded-none bg-[#1F1F1F] ${
                                 index === currentIndex ? 'opacity-100' : 'opacity-0'
                             }`}
                         >
                             <img
                                 src={image}
                                 alt={`Serviabogados CM ${index + 1}`}
-                                className='w-full h-full object-cover'
+                                className='w-full h-full object-contain brightness-[0.6]'
                             />
-                            {/* Overlay oscuro para mejor legibilidad del texto */}
-                            <div className='absolute inset-0 bg-black opacity-40'></div>
                         </div>
                     ))}
 

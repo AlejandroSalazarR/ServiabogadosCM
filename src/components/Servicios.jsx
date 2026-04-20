@@ -32,6 +32,15 @@ import asesoriass1 from '../assets/asesoriass1.png';
 import asesoriass2 from '../assets/asesoriass2.png';
 import asesoriass3 from '../assets/asesoriass3.png';
 
+// Importar imágenes de asesoría constitucional
+import cambio2 from '../assets/cambio2.png';
+import cambio3 from '../assets/cambio3.png';
+import cambio4 from '../assets/cambio4.png';
+import cambio5 from '../assets/cambio5.png';
+import cambio6 from '../assets/cambio6.png';
+import cambio7 from '../assets/cambio7.png';
+import cambio8 from '../assets/cambio8.png';
+
 // Importar imagen de por qué elegirnos
 import pregunta1 from '../assets/pregunta1.png';
 
@@ -61,12 +70,12 @@ const ImageCarousel = ({ images }) => {
     };
 
     return (
-        <div className='relative w-full h-64 mb-6 rounded-lg overflow-hidden bg-black/20'>
+        <div className='relative w-full h-64 mb-6 rounded-lg overflow-hidden bg-[#1F1F1F]'>
             {/* Imagen actual */}
             <img
                 src={images[currentImageIndex]}
                 alt={`Imagen ${currentImageIndex + 1}`}
-                className='w-full h-full object-cover transition-opacity duration-500'
+                className='w-full h-full object-contain transition-opacity duration-500'
             />
 
             {/* Overlay gradiente */}
@@ -117,7 +126,7 @@ const services = [
         title: 'ASESORÍA CONSTITUCIONAL',
         description: 'SERVIABOGADOS C.M, ofrece servicios de asesoría Constitucional y representación jurídica en la protección de los derechos fundamentales, la defensa y garantías constitucionales en la representación en derechos de petición ante autoridades públicas y privadas, acciones de inconstitucionalidad, acciones de tutela, acciones de grupo y popular; y demás mecanismos de control constitucional, asegurando la correcta aplicación de la Constitución y la protección efectiva de los intereses de los clientes.',
         color: '#D4AF37',
-        images: []
+        images: [cambio2, cambio3, cambio4]
     },
     {
         icon: <FaBalanceScale size={32} />,
@@ -166,19 +175,19 @@ const services = [
         title: 'DERECHOS DE PETICIÓN Y ACCIONES DE TUTELA',
         description: 'Elaboramos y tramitamos derechos de petición ante entidades públicas y privadas, así como acciones de tutela para la protección inmediata de derechos fundamentales. Te acompañamos en todo el proceso.',
         color: '#E74C3C',
-        images: []
+        images: [cambio5, cambio6, cambio7]
     },
     {
         icon: <FaStar size={32} />,
         title: '¿POR QUÉ ELEGIR A SERVIABOGADOS C.M.?',
         description: 'Porque se caracteriza por brindar una asesoría legal integral, personalizada y comprometida, basada en el conocimiento técnico profesional, confidencialidad y acompañamiento permanente, ofreciendo una amplia gama de servicios legales, garantizando soluciones jurídicas claras y orientadas a resultados. Consulta tu caso en particular y te brindaremos la asesoría legal que requieres.',
         color: '#D4AF37',
-        images: [pregunta1]
+        images: [cambio8]
     },
     {
         icon: <FaEnvelope size={32} />,
         title: 'CONTÁCTANOS',
-        description: '¿Tienes alguna consulta legal? No dudes en contactarnos. Estamos disponibles para atender tus inquietudes y brindarte la mejor asesoría jurídica.<br/><br/><strong>Correo:</strong> serviabogadoscm@gmail.com<br/><strong>WhatsApp:</strong> <a href="https://wa.me/573178913023?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20vuestros%20servicios" target="_blank" style="color: #25D366; text-decoration: none; font-weight: bold;">+57 317 891 3023</a>',
+        description: '¿Tienes alguna consulta legal? No dudes en contactarnos. Estamos disponibles para atender tus inquietudes y brindarte la mejor asesoría jurídica.<br/><br/><strong>Correo:</strong> serviabogadoscm@gmail.com<br/><strong>WhatsApp:</strong> <a href="https://wa.me/573178913023?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20nuestros%20servicios" target="_blank" style="color: #25D366; text-decoration: none; font-weight: bold;">+57 317 891 3023</a>',
         color: '#25D366',
         images: []
     }
@@ -196,7 +205,7 @@ export default function ProductCategories() {
             <div className='max-w-5xl mx-auto px-6'>
                 {/* Título */}
                 <div className="text-center mb-16 max-lg:mb-10">
-                    <p className='text-4xl font-serif font-bold tracking-wider text-stone-200 mb-2'>SERVICIOS</p>
+                    <p className='text-4xl font-serif font-bold tracking-wider text-stone-200 mb-2'>SERVICIOS JURÍDICOS</p>
                     <div className="w-24 h-1 bg-[#D4AF37] mx-auto"></div>
                 </div>
 
@@ -260,13 +269,13 @@ export default function ProductCategories() {
                 {/* Call to action */}
                 <div className='text-center mt-12'>
                     <a
-                        href="https://wa.me/573178913023?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20vuestros%20servicios"
+                        href="https://wa.me/573178913023?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20nuestros%20servicios"
                         target="_blank"
                         rel="noreferrer"
                         className='inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#128C7E] text-white font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg'
                     >
                         <FaWhatsapp size={24} />
-                        Contactanos
+                        Contáctanos
                     </a>
                 </div>
             </div>

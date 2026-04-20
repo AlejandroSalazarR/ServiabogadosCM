@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import cambio9 from '../assets/cambio9.png';
 
 function Footer() {
   return (
@@ -11,53 +11,8 @@ function Footer() {
         </svg>
       </div>
       <footer name='footer' className='bg-[#2E2E2E]'>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-
-          {/* Top area: Blocks - 3 Columnas */}
-          <div className="grid sm:grid-cols-3 gap-8 py-8 md:py-12 border-gray-200">
-
-            {/* Columna 1: Contactenos */}
-            <div className="sm:col-span-1">
-              <h6 className="text-gray-200 font-medium mb-4 text-lg">Contactenos</h6>
-              <ul className="text-base">
-                <li className="mb-3">
-                  <a href="mailto:serviabogadoscm@gmail.com" className="text-gray-400 hover:text-gray-200 transition duration-150 ease-in-out">serviabogadoscm@gmail.com</a>
-                </li>
-                <li className="mb-3">
-                  <Link to="nosotros" className="text-gray-400 hover:text-gray-200 transition duration-150 ease-in-out cursor-pointer">Nosotros</Link>
-                </li>
-              </ul>
-            </div>
-
-            {/* Columna 2: WhatsApp */}
-            <div className="sm:col-span-1">
-              <h6 className="text-gray-200 font-medium mb-4 text-lg">WhatsApp</h6>
-              <ul className="text-base">
-                <li className="mb-3 p-0">
-                  <a href="https://wa.me/+573178913023" target='_blank' rel="noreferrer" className="text-gray-400 hover:text-gray-200 transition duration-150 ease-in-out">+57 3178913023</a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Columna 3: Instagram */}
-            <div className="sm:col-span-1">
-              <h6 className="text-gray-200 font-medium mb-4 text-lg">Instagram</h6>
-              <ul className="text-base">
-                <li className="mb-3 p-0">
-                  <a href="https://www.instagram.com/serviabogadoscm/" target='_blank' rel="noreferrer" className="text-gray-400 hover:text-gray-200 transition duration-150 ease-in-out">@serviabogadoscm</a>
-                </li>
-              </ul>
-            </div>
-
-          </div>
-
-          {/* Bottom area */}
-          <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
-
-            {/* Copyrights note */}
-
-          </div>
-
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 md:py-12 flex justify-center overflow-hidden">
+          <img src={cambio9} alt='ServiAbogados CM' className='max-h-[550px] object-contain mr-[-100px]' />
         </div>
       </footer>
     </>

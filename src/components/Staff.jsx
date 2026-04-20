@@ -1,7 +1,7 @@
 import image_01 from '../assets/civil.png'
 import image_02 from '../assets/asesor.jpg'
 import image_03 from '../assets/ejecucion.jpg'
-import PhotoLawyer from '../assets/photo12.png'
+import PhotoLawyer from '../assets/cambio1.png'
 
 
 
@@ -63,7 +63,7 @@ export default function Example() {
 
             {/* Servicios - mantiene las tarjetas originales */}
             <div className="text-center mt-16 mb-8">
-              <p className='text-4xl font-serif font-bold tracking-wider text-[#fff] mb-2'>SERVICIOS</p>
+              <p className='text-4xl font-serif font-bold tracking-wider text-[#fff] mb-2'>ASESORÍAS JURÍDICAS</p>
               <div className="w-24 h-1 bg-[#D4AF37] mx-auto"></div>
             </div>
             <dl className="mt-8 px-4 grid gap-x-4 gap-y-10 sm:grid-cols-4 max-lg:grid-cols-1 sm:gap-y-16 max-lg:px-4">
