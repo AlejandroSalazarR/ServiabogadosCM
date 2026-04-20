@@ -12,7 +12,7 @@ function Footer() {
       </div>
       <footer name='footer' className='bg-[#2E2E2E]'>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 md:py-12 flex justify-center overflow-hidden">
-          <img src={cambio9} alt='ServiAbogados CM' className='max-h-[550px] object-contain mr-[-100px]' />
+          <img src={cambio9} alt='ServiAbogados CM' className='max-h-[550px] object-contain mr-[-100px] max-lg:mr-0 max-lg:max-h-[300px]' />
         </div>
       </footer>
     </>

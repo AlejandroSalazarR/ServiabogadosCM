@@ -67,7 +67,7 @@ const ImageCarousel = ({ images }) => {
     };
 
     return (
-        <div className='relative w-full h-64 mb-6 rounded-lg overflow-hidden bg-[#1F1F1F]'>
+        <div className='relative w-full h-64 max-lg:h-48 mb-6 rounded-lg overflow-hidden bg-[#1F1F1F]'>
             {/* Imagen actual */}
             <img
                 src={images[currentImageIndex]}

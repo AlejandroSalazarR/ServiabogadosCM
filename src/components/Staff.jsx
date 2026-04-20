@@ -17,21 +17,21 @@ export default function Example() {
     <>
 
       <div name='quienes-somos' className="bg-[#1F1F1F]  flex justify-center  text-black max-lg:pb-20 ">
-        <div className="  mx-20  grid max-w-7xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 max-lg:px-8 px-24 sm:px-2 sm:py-20 lg:max-w-7xl lg:px-10 max-lg:mx-1 max-lg:pb-1">
-          <div className="bg-[#595E63] shadow-md hover:shadow-lg rounded-3xl p-8">
+        <div className="  mx-20  grid max-w-7xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 max-lg:px-4 px-24 sm:px-2 sm:py-20 lg:max-w-7xl lg:px-10 max-lg:mx-2 max-lg:pb-1">
+          <div className="bg-[#595E63] shadow-md hover:shadow-lg rounded-3xl p-8 max-lg:p-4">
             
             {/* QUIÉNES SOMOS */}
             <div className="text-center mb-8">
-              <p className='text-4xl font-serif font-bold tracking-wider text-[#fff] mb-2'>QUIÉNES SOMOS</p>
+              <p className='text-4xl max-lg:text-2xl font-serif font-bold tracking-wider text-[#fff] mb-2'>QUIÉNES SOMOS</p>
               <div className="w-24 h-1 bg-[#D4AF37] mx-auto"></div>
             </div>
             <p className="mt-4 text-2xl max-lg:text-base text-[#fff]">
-              SERVIABOGADOS CM. Está comprometido en brindar una asesoría con ética profesional, compromiso y responsabilidad, se cuenta con una amplia experiencia en todas las ramas del derecho, brindando asesoría integral y soluciones personalizadas para cada cliente. Nuestro compromiso es brindar soluciones integrales y efectivas, brindando acompañamiento en cada etapa del proceso garantizando la mejor defensa y el acompañamiento legal.
+              SERVIABOGADOS CM. Está comprometido en brindar una asesoría con ética profesional, compromiso y responsabilidad, con <strong className='text-[#D4AF37]'>más de 15 años de experiencia</strong> en todas las ramas del derecho, brindando asesoría integral y soluciones personalizadas para cada cliente. Nuestro compromiso es brindar soluciones integrales y efectivas, brindando acompañamiento en cada etapa del proceso garantizando la mejor defensa y el acompañamiento legal.
             </p>
 
             {/* MISIÓN */}
             <div className="text-center mt-12 mb-8">
-              <p className='text-4xl font-serif font-bold tracking-wider text-[#fff] mb-2'>MISIÓN</p>
+              <p className='text-4xl max-lg:text-2xl font-serif font-bold tracking-wider text-[#fff] mb-2'>MISIÓN</p>
               <div className="w-24 h-1 bg-[#D4AF37] mx-auto"></div>
             </div>
             <p className="mt-4 text-2xl max-lg:text-base text-[#fff]">
@@ -40,7 +40,7 @@ export default function Example() {
 
             {/* VISIÓN */}
             <div className="text-center mt-12 mb-8">
-              <p className='text-4xl font-serif font-bold tracking-wider text-[#fff] mb-2'>VISIÓN</p>
+              <p className='text-4xl max-lg:text-2xl font-serif font-bold tracking-wider text-[#fff] mb-2'>VISIÓN</p>
               <div className="w-24 h-1 bg-[#D4AF37] mx-auto"></div>
             </div>
             <p className="mt-4 text-2xl max-lg:text-base text-[#fff]">
@@ -49,7 +49,7 @@ export default function Example() {
 
             {/* VALORES CORPORATIVOS */}
             <div className="text-center mt-12 mb-8">
-              <p className='text-4xl font-serif font-bold tracking-wider text-[#fff] mb-2'>VALORES CORPORATIVOS</p>
+              <p className='text-4xl max-lg:text-2xl font-serif font-bold tracking-wider text-[#fff] mb-2'>VALORES CORPORATIVOS</p>
               <div className="w-24 h-1 bg-[#D4AF37] mx-auto"></div>
             </div>
             <div className="mt-4 text-2xl max-lg:text-base text-[#fff] space-y-4">
@@ -63,10 +63,10 @@ export default function Example() {
 
             {/* Servicios - mantiene las tarjetas originales */}
             <div className="text-center mt-16 mb-8">
-              <p className='text-4xl font-serif font-bold tracking-wider text-[#fff] mb-2'>ASESORÍAS JURÍDICAS</p>
+              <p className='text-4xl max-lg:text-2xl font-serif font-bold tracking-wider text-[#fff] mb-2'>ASESORÍAS JURÍDICAS</p>
               <div className="w-24 h-1 bg-[#D4AF37] mx-auto"></div>
             </div>
-            <dl className="mt-8 px-4 grid gap-x-4 gap-y-10 sm:grid-cols-4 max-lg:grid-cols-1 sm:gap-y-16 max-lg:px-4">
+            <dl className="mt-8 px-4 grid gap-x-4 gap-y-10 lg:grid-cols-4 sm:grid-cols-2 max-sm:grid-cols-1 sm:gap-y-16 max-lg:px-0">
               {features.map((feature) => (
                 <div key={feature.name} className="border-gray-200 bg-[#343A40]  shadow-md hover:shadow-lg rounded-md">
                   <div className="flex flex-col justify-center self-center">
