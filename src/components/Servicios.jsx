@@ -41,9 +41,6 @@ import cambio6 from '../assets/cambio6.png';
 import cambio7 from '../assets/cambio7.png';
 import cambio8 from '../assets/cambio8.png';
 
-// Importar imagen de por qué elegirnos
-import pregunta1 from '../assets/pregunta1.png';
-
 // Componente de carrusel de imágenes
 const ImageCarousel = ({ images }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
