@@ -40,6 +40,7 @@ import cambio5 from '../assets/cambio5.png';
 import cambio6 from '../assets/cambio6.png';
 import cambio7 from '../assets/cambio7.png';
 import cambio8 from '../assets/cambio8.png';
+import cambio12 from '../assets/cambio12.png';
 
 // Componente de carrusel de imágenes
 const ImageCarousel = ({ images }) => {
@@ -121,49 +122,49 @@ const services = [
     {
         icon: <FaLandmark size={32} />,
         title: 'ASESORÍA CONSTITUCIONAL',
-        description: 'SERVIABOGADOS C.M, ofrece servicios de asesoría Constitucional y representación jurídica en la protección de los derechos fundamentales, la defensa y garantías constitucionales en la representación en derechos de petición ante autoridades públicas y privadas, acciones de inconstitucionalidad, acciones de tutela, acciones de grupo y popular; y demás mecanismos de control constitucional, asegurando la correcta aplicación de la Constitución y la protección efectiva de los intereses de los clientes.',
+        description: 'SERVIABOGADOS C.M. ofrece servicios de asesoría constitucional y representación jurídica en la protección de los derechos fundamentales, la defensa y las garantías constitucionales, así como en la representación en derechos de petición ante autoridades públicas y privadas, acciones de inconstitucionalidad, acciones de tutela, acciones de grupo y acciones populares, y demás mecanismos de control constitucional, asegurando la correcta aplicación de la Constitución y la protección efectiva de los intereses de los clientes.',
         color: '#D4AF37',
         images: [cambio2, cambio3, cambio4]
     },
     {
         icon: <FaBalanceScale size={32} />,
         title: 'ASESORÍA CIVIL',
-        description: 'SERVIABOGADOS C.M brinda asesoría legal en asuntos civiles relacionados con contratos, obligaciones, procesos declarativos y ejecutivos; y todos los conflictos que surjan contractual y extracontractual entre particulares y entidades del Estado, ofreciendo soluciones jurídicas y acompañamiento profesional para cada caso en particular.',
+        description: 'SERVIABOGADOS C.M. brinda asesoría legal en asuntos civiles relacionados con contratos, obligaciones, procesos declarativos y ejecutivos, y en todos los conflictos que surjan de manera contractual y extracontractual entre particulares y entidades del Estado, ofreciendo soluciones jurídicas y acompañamiento profesional para cada caso en particular.',
         color: '#4A90E2',
         images: [asesoriacivil1, asesoriacivil2, asesoriacivil3]
     },
     {
         icon: <FaBalanceScale size={32} />,
         title: 'ASESORÍA EN FAMILIA',
-        description: 'SERVIABOGADOS C.M brinda asesoría y acompañamiento jurídico especializado en derecho de familia, orientado a proteger los derechos y el bienestar de cada integrante del grupo familiar, se atiende asuntos relacionados con divorcios, sucesiones, fijación y modificación de cuotas alimentarias, custodia y régimen de visitas, filiación, adopción y demás conflictos familiares, ofreciendo soluciones legales ajustadas al debido proceso y a la normatividad vigente para cada caso específico.',
+        description: 'SERVIABOGADOS C.M. brinda asesoría y acompañamiento jurídico especializado en derecho de familia, orientado a proteger los derechos y el bienestar de cada integrante del grupo familiar. Se atienden asuntos relacionados con divorcios, sucesiones, fijación y modificación de cuotas alimentarias, custodia y régimen de visitas, filiación, adopción y demás conflictos familiares, ofreciendo soluciones legales ajustadas al debido proceso y a la normatividad vigente para cada caso específico.',
         color: '#E74C3C',
         images: [asesoriafamilia1, asesoriafamilia2, asesoriafamilia3]
     },
     {
         icon: <FaBriefcase size={32} />,
         title: 'ASESORÍA COMERCIAL',
-        description: 'SERVIABOGADOS C.M se centra en brindar asesoría legal a empresas y comerciantes, abarcando temas como la constitución de sociedades, la redacción de contratos comerciales, la resolución de conflictos en obligaciones adquiridas por medio de títulos valores como letras, pagares, cheques, contratos de compraventa entre otros tipos de contratos, también se maneja temas relacionados como la protección de la propiedad intelectual, derecho de autor y marca; todo ello adaptado a las necesidades específicas de sus clientes.',
+        description: 'SERVIABOGADOS C.M. se centra en brindar asesoría legal a empresas y comerciantes, abarcando temas como la constitución de sociedades, la redacción de contratos comerciales y la resolución de conflictos en obligaciones adquiridas por medio de títulos valores, como letras, pagarés, cheques y contratos de compraventa, entre otros tipos de contratos. También se manejan temas relacionados con la protección de la propiedad intelectual, el derecho de autor y la marca; todo ello adaptado a las necesidades específicas de sus clientes.',
         color: '#27AE60',
         images: [asesoriacomercial1, asesoriacomercial2, asesoriacomercial3]
     },
     {
         icon: <FaBriefcase size={32} />,
         title: 'ASESORÍA ADMINISTRATIVA',
-        description: 'SERVIABOGADOS C.M brinda asesoría jurídica especializada en derecho administrativo, orientada a la defensa y protección de los derechos de las personas naturales y jurídicas frente a las entidades del Estado, utilizando los métodos alternativos de solución de conflictos; y se instaura derechos de petición ante autoridades públicas y privadas. Se realiza trámites administrativos ante el sistema integrado de información sobre multas y sanciones por infracciones de tránsito, en temas relacionados con los comparendos, se acompaña a nuestros clientes en trámites administrativos, contratación estatal, conflictos contractuales y extracontractuales, recursos administrativos y demás asuntos relacionados con la función pública, garantizando un servicio técnico, responsable y conforme a la normatividad vigente.',
+        description: 'SERVIABOGADOS C.M. brinda asesoría jurídica especializada en derecho administrativo, orientada a la defensa y protección de los derechos de las personas naturales y jurídicas frente a las entidades del Estado, utilizando los métodos alternativos de solución de conflictos; e instaura derechos de petición ante autoridades públicas y privadas.<br/><br/>Se realizan trámites administrativos ante el Sistema Integrado de Información sobre Multas y Sanciones por Infracciones de Tránsito, en temas relacionados con comparendos. Además, se acompaña a nuestros clientes en trámites administrativos, contratación estatal, conflictos contractuales y extracontractuales, recursos administrativos y demás asuntos relacionados con la función pública, garantizando un servicio técnico, responsable y conforme a la normatividad vigente.',
         color: '#9B59B6',
         images: [asesoriaadministrativa1, asesoriaadministrativa2, asesoriaadministrativa3]
     },
     {
         icon: <FaFileContract size={32} />,
         title: 'ASESORÍA LABORAL',
-        description: 'SERVIABOGADOS C.M brinda asesoría jurídica especializada en derecho laboral empresarial, brindando asesoría integral a empresas en la gestión legal de sus relaciones laborales, acompañando a los empleadores en la prevención de riesgos laborales, elaboración y revisión de contratos laborales, contratación, despidos y liquidaciones, defensa en procesos administrativos y judiciales, con el objetivo de garantizar el cumplimiento de la normatividad laboral vigente, prevenir y proteger los intereses de las empresas en la solución de conflictos, promover relaciones laborales justas, estables y legalmente seguras. Orientada a la protección de los derechos y deberes de los trabajadores y empleadores. Contar con una asesoría jurídica laboral adecuada permite prevenir conflictos ante el Ministerio del Trabajo y procesos judiciales.',
+        description: 'SERVIABOGADOS C.M. brinda asesoría jurídica especializada en derecho laboral empresarial, brindando asesoría integral a empresas en la gestión legal de sus relaciones laborales, acompañando a los empleadores en la prevención de riesgos laborales, elaboración y revisión de contratos laborales, contratación, despidos y liquidaciones, y defensa en procesos administrativos y judiciales, con el objetivo de garantizar el cumplimiento de la normatividad laboral vigente, prevenir y proteger los intereses de las empresas en la solución de conflictos, y promover relaciones laborales justas, estables y legalmente seguras. Está orientada a la protección de los derechos y deberes de los trabajadores y empleadores. Contar con una asesoría jurídica laboral adecuada permite prevenir conflictos ante el Ministerio del Trabajo y procesos judiciales.',
         color: '#F39C12',
         images: [asesorialaboral1, asesorialaboral2, asesorialaboral3]
     },
     {
         icon: <FaShieldAlt size={32} />,
         title: 'ASESORÍA EN SEGURIDAD SOCIAL',
-        description: 'SERVIABOGADOS C.M brinda asesoría especializada en la seguridad social, orientada a la protección de los derechos de los afiliados al sistema de seguridad social, acompañando a nuestros clientes en asuntos relacionados con pensiones, incapacidades, riesgos laborales, afiliaciones, reclamaciones ante EPS, ARL y fondos de pensiones, así como en procesos administrativos y judiciales, garantizando un servicio técnico, responsable y conforme a la normatividad vigente.',
+        description: 'SERVIABOGADOS C.M. brinda asesoría especializada en seguridad social, orientada a la protección de los derechos de los afiliados al sistema de seguridad social, acompañando a nuestros clientes en asuntos relacionados con pensiones, incapacidades, riesgos laborales, afiliaciones, reclamaciones ante EPS, ARL y fondos de pensiones, así como en procesos administrativos y judiciales, garantizando un servicio técnico, responsable y conforme a la normatividad vigente.',
         color: '#16A085',
         images: [asesoriass1, asesoriass2, asesoriass3]
     },
@@ -177,14 +178,14 @@ const services = [
     {
         icon: <FaStar size={32} />,
         title: '¿POR QUÉ ELEGIR A SERVIABOGADOS C.M.?',
-        description: 'Porque se caracteriza por brindar una asesoría legal integral, personalizada y comprometida, basada en el conocimiento técnico profesional, confidencialidad y acompañamiento permanente, ofreciendo una amplia gama de servicios legales, garantizando soluciones jurídicas claras y orientadas a resultados. Consulta tu caso en particular y te brindaremos la asesoría legal que requieres.',
+        description: 'Porque se caracteriza por brindar una asesoría legal integral, personalizada y comprometida, basada en el conocimiento técnico profesional, la confidencialidad y el acompañamiento permanente, ofreciendo una amplia gama de servicios legales, garantizando soluciones jurídicas claras y orientadas a resultados. Consulta tu caso en particular y te brindaremos la asesoría legal que requieres.',
         color: '#D4AF37',
-        images: [cambio8]
+        images: [cambio8, cambio12]
     },
     {
         icon: <FaEnvelope size={32} />,
         title: 'CONTÁCTANOS',
-        description: '¿Tienes alguna consulta legal? No dudes en contactarnos. Estamos disponibles para atender tus inquietudes y brindarte la mejor asesoría jurídica.<br/><br/><strong>Correo:</strong> serviabogadoscm@gmail.com<br/><strong>WhatsApp:</strong> <a href="https://wa.me/573178913023?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20nuestros%20servicios" target="_blank" style="color: #25D366; text-decoration: none; font-weight: bold;">+57 317 891 3023</a>',
+        description: '¿Tienes alguna consulta legal? No dudes en contactarnos. Estamos disponibles para atender tus inquietudes y brindarte la mejor asesoría jurídica.<br/><br/><strong>Correo:</strong> serviabogadoscm@gmail.com<br/><strong>WhatsApp:</strong> <a href="https://wa.me/573178913023?text=Hola,%20me%20gustar%C3%ADa%20obtener%20informaci%C3%B3n%20sobre%20los%20servicios." target="_blank" style="color: #25D366; text-decoration: none; font-weight: bold;">+57 317 891 3023</a>',
         color: '#25D366',
         images: []
     }
@@ -266,7 +267,7 @@ export default function ProductCategories() {
                 {/* Call to action */}
                 <div className='text-center mt-12'>
                     <a
-                        href="https://wa.me/573178913023?text=Hola,%20me%20gustaría%20obtener%20más%20información%20sobre%20nuestros%20servicios"
+                        href="https://wa.me/573178913023?text=Hola,%20me%20gustar%C3%ADa%20obtener%20informaci%C3%B3n%20sobre%20los%20servicios."
                         target="_blank"
                         rel="noreferrer"
                         className='inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#128C7E] text-white font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg'

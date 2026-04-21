@@ -6,10 +6,10 @@ import PhotoLawyer from '../assets/cambio1.png'
 
 
 const features = [
-  { name: 'Asesoría administrativa', description: 'Made from natural materials. Grain and color vary with each item.', image: PhotoLawyer },
-  { name: 'Asesorias jurídicas', description: 'Made from natural materials. Grain and color vary with each item.', image: image_03 },
-  { name: 'Derechos de peticion y Acciones de tutela', description: 'Made from natural materials. Grain and color vary with each item.', image: image_02 },
-  { name: 'Asesoria civil', description: 'Made from natural materials. Grain and color vary with each item.', image: image_01 },
+  { name: 'ASESORÍA CONSTITUCIONAL', description: 'Es un servicio que se enfoca en brindar apoyo y asesoramiento a empresas y organizaciones para mejorar su gestión y eficiencia en el uso de recursos.', image: PhotoLawyer },
+  { name: 'ASESORÍA CIVIL-FAMILIA', description: 'Acompañamiento jurídico profesional y personalizado.', image: image_03 },
+  { name: 'ASESORÍA ADMINISTRATIVA', description: 'Defensa y protección oportuna de tus derechos.', image: image_02 },
+  { name: 'ASESORÍA LABORAL', description: 'Soluciones jurídicas claras en asuntos civiles.', image: image_01 },
 ]
 
 export default function Example() {
@@ -26,7 +26,7 @@ export default function Example() {
               <div className="w-24 h-1 bg-[#D4AF37] mx-auto"></div>
             </div>
             <p className="mt-4 text-2xl max-lg:text-base text-[#fff]">
-              SERVIABOGADOS CM. Está comprometido en brindar una asesoría con ética profesional, compromiso y responsabilidad, con <strong className='text-[#D4AF37]'>más de 15 años de experiencia</strong> en todas las ramas del derecho, brindando asesoría integral y soluciones personalizadas para cada cliente. Nuestro compromiso es brindar soluciones integrales y efectivas, brindando acompañamiento en cada etapa del proceso garantizando la mejor defensa y el acompañamiento legal.
+              SERVIABOGADOS CM. Está comprometido en brindar una asesoría con ética profesional, compromiso y responsabilidad, con 15 años de experiencia en todas las ramas del derecho, brindando asesoría integral y soluciones personalizadas para cada cliente. Nuestro compromiso es brindar soluciones integrales y efectivas, brindando acompañamiento en cada etapa del proceso, garantizando la mejor defensa y el acompañamiento legal.
             </p>
 
             {/* MISIÓN */}
@@ -44,7 +44,7 @@ export default function Example() {
               <div className="w-24 h-1 bg-[#D4AF37] mx-auto"></div>
             </div>
             <p className="mt-4 text-2xl max-lg:text-base text-[#fff]">
-              SERVIABOGADOS CM. Tiene como propósito consolidarse como un referente de excelencia en el ámbito legal, destacando la innovación, compromiso con la justicia y la satisfacción de nuestros clientes. Aspiramos a expandir nuestros servicios a nivel nacional e internacional, manteniendo siempre los más altos estándares de ética y profesionalismo.
+              SERVIABOGADOS CM. Es consolidarse como un referente de excelencia en el ámbito legal, destacando por nuestra innovación, compromiso con la justicia y la satisfacción de nuestros clientes. Aspiramos a expandir nuestros servicios a nivel nacional e internacional, manteniendo siempre los más altos estándares de ética y profesionalismo.
             </p>
 
             {/* VALORES CORPORATIVOS */}
@@ -61,7 +61,7 @@ export default function Example() {
               <p><strong>6. Colaboración:</strong> Fomentamos el trabajo en equipo y la comunicación efectiva tanto internamente como con nuestros clientes.</p>
             </div>
 
-            {/* Servicios - mantiene las tarjetas originales */}
+            {/* Servicios: mantiene las tarjetas originales */}
             <div className="text-center mt-16 mb-8">
               <p className='text-4xl max-lg:text-2xl font-serif font-bold tracking-wider text-[#fff] mb-2'>ASESORÍAS JURÍDICAS</p>
               <div className="w-24 h-1 bg-[#D4AF37] mx-auto"></div>
