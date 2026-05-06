@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Favicon</title>
+</head>
+<body>
+    <canvas id="canvas" width="32" height="32"></canvas>
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Fondo oscuro
+        ctx.fillStyle = '#1F1F1F';
+        ctx.fillRect(0, 0, 32, 32);
+        
+        // Color dorado
+        ctx.fillStyle = '#D4AF37';
+        ctx.strokeStyle = '#D4AF37';
+        ctx.lineWidth = 1;
+        
+        // Base
+        ctx.fillRect(4, 28, 24, 2);
+        
+        // Pedestal
+        ctx.fillRect(15, 8, 2, 20);
+        
+        // Barra horizontal
+        ctx.fillRect(8, 12, 16, 1);
+        
+        // Platillo izquierdo
+        ctx.beginPath();
+        ctx.moveTo(8, 14);
+        ctx.lineTo(10, 14);
+        ctx.lineTo(11, 16);
+        ctx.lineTo(7, 16);
+        ctx.closePath();
+        ctx.fill();
+        
+        // Platillo derecho
+        ctx.beginPath();
+        ctx.moveTo(22, 14);
+        ctx.lineTo(24, 14);
+        ctx.lineTo(25, 16);
+        ctx.lineTo(21, 16);
+        ctx.closePath();
+        ctx.fill();
+        
+        // Cadenas
+        ctx.beginPath();
+        ctx.moveTo(9, 12);
+        ctx.lineTo(9, 14);
+        ctx.stroke();
+        
+        ctx.beginPath();
+        ctx.moveTo(23, 12);
+        ctx.lineTo(23, 14);
+        ctx.stroke();
+        
+        // Descargar
+        setTimeout(() => {
+            canvas.toBlob(blob => {
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = 'favicon.png';
+                link.click();
+            });
+        }, 100);
+    </script>
+    <p>El favicon se descargará automáticamente. Guárdalo en la carpeta public como favicon.png</p>
+</body>
+</html>

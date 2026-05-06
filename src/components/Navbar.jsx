@@ -7,7 +7,6 @@ import {
   FaFacebook,
   FaTiktok,
 } from 'react-icons/fa';
-import BalanceIcon from '@mui/icons-material/Balance';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -16,10 +15,10 @@ const Navbar = () => {
 
   return (
     <div className='fixed z-10 w-full h-[60px] flex justify-between items-center px-4 bg-[#1f1f1f] text-white	'>
-      <div className='flex'>
-        <BalanceIcon/>
-
-        <p className='px-4 cursor-default'>Serviabogados CM</p>
+      <div className='flex items-center'>
+        <Link to='home' smooth={true} duration={500} className='cursor-pointer'>
+          <p className='text-xl font-semibold'>Serviabogados CM</p>
+        </Link>
       </div>
 
       {/* menu */}
